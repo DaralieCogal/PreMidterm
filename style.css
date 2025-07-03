@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(wiw.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 /* header section:title */
@@ -11,7 +15,7 @@ body {
 
 .title-container {
   display: inline;
-  font-family: Paytone One, sans-serif; 
+  font-family: Paytone One; 
 }
 
 .title-container > h1 {
@@ -33,11 +37,11 @@ body {
   display: inline;
   font-size: 30px;
   margin-left: 10em;
+  font-family: Abel;
 }
 .links > ul {
   list-style: none;
   display: inline;
-  font-size: 30px;
   margin-block: 0px;
 }
 
@@ -45,18 +49,27 @@ body {
   text-align: center;
   display: inline;
   margin-block: 0px;
+  color:#ffffff;
+  padding-left: 20px;
 }
 .links > ul > li:first-child {
     background: #ffe999;
     padding-top: 50px;
-    padding-bottom: 15.5px;
-    font-style: Paytone One;
+    padding-bottom: 15px;
     color: black;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* header section: search */
 .search-icon-container {
     display: inline;
+}
+.search-icon-container > img {
+    width: 50px;
+    display: inline;
+    margin-left: 10em;
+    padding-left: 20px;
 }
 .search-icon-container > img {
     width: 50px;
